@@ -5,7 +5,7 @@ import { PlayerLayout } from "../components/playerLayout";
 const MyApp = ({ Component, pageProps }) => {
   return (
     <PlayerLayout>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </PlayerLayout>
   );
 };
